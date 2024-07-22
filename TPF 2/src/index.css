@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    font-family: "roboto";
+    font-size: medium;
+    /* border: 2px solid aquamarine; */
+}
+
+body {
+    background-color: #EDEDED;
+}

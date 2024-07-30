@@ -3,6 +3,7 @@ import html from "../../assets/icons/html.svg"
 import css from "../../assets/icons/css.svg"
 import cpp from "../../assets/icons/cpp.svg"
 import java from "../../assets/icons/java.svg"
+import './MySkills.css'
 
 const MySkills = () => {
     return (

@@ -1,59 +1,61 @@
 import React from 'react';
+import './Testimonial.css'
+import fotocliente from "../../assets/img/fotocliente.png"
 
 const Testimonial = () => {
     return (
-        <section class="testimonial" id="testimonial">
+        <section className="testimonial" id="testimonial">
 
 
 
 
-            <div class="contenedorComillas">
+            <div className="contenedorComillas">
                 <div>
-                    <h2 class="h2Portafolio">
+                    <h2 className="h2Portafolio">
                         TESTIMONIAL
                     </h2>
-                    <h1 class="h1MyServices">
+                    <h1 className="h1MyServices">
                         Reseñas de mis Clientes
                     </h1>
                 </div>
-                <i class="bi bi-quote quoteDown comillas comillasTestimonial"></i>
+                <i className="bi bi-quote quoteDown comillas comillasTestimonial"></i>
             </div>
-            <div class="containerTestimonial">
+            <div className="containerTestimonial">
 
                 <div>
-                    <img class="imgTestimonial" src="img/fotocliente.png" alt="" />
+                    <img className="imgTestimonial" src={fotocliente} alt="" />
                 </div>
 
-                <div class="textoTestimonial">
+                <div className="textoTestimonial">
 
-                    <h3 class="h3Testimonial">
+                    <h3 className="h3Testimonial">
                         Bruno Palombarini es un creativo diseñador UI/UX y el es simplemente asombroso.
                     </h3>
 
-                    <p class="pTestimonial">
+                    <p className="pTestimonial">
                         Hay muchas variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría ha sufrido alguna alteración, por humor inyectado o palabras aleatorias que no parecen ni un poco creíbles. Si va a utilizar un pasaje de Lorem Ipsum, debe asegurarse de que no haya nada vergonzoso escondido en medio del texto. Alguna forma, por disponible.
                     </p>
 
-                    <div class="containerClienteFlechas">
+                    <div className="containerClienteFlechas">
 
-                        <div class="textoCliente">
+                        <div className="textoCliente">
 
-                            <h3 class="h3Testimonial oscurito">
+                            <h3 className="h3Testimonial oscurito">
                                 Esther Howard
                             </h3>
 
-                            <p class="pTestimonial">
+                            <p className="pTestimonial">
                                 Fundador
                             </p>
                         </div>
                         {/* <!-- Flechitas --> */}
-                        <div class="divFlechitas">
-                            <button class="flechas fondoBlanco">
-                                <i class="bi bi-arrow-left-circle-fill big"></i>
+                        <div className="divFlechitas">
+                            <button className="flechas fondoBlanco">
+                                <i className="bi bi-arrow-left-circle-fill big"></i>
                             </button>
 
-                            <button class="flechas fondoBlanco">
-                                <i class="bi bi-arrow-right-circle-fill big"></i>
+                            <button className="flechas fondoBlanco">
+                                <i className="bi bi-arrow-right-circle-fill big"></i>
                             </button>
                         </div>
 

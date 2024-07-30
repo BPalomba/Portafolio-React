@@ -1,0 +1,73 @@
+.myServices {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.headerServices {
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedorServices {
+    display: flex;
+    margin-top: 50px;
+}
+
+.services {
+    display: flexbox;
+    width: 40%;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 325px;
+}
+
+.servicesImg {
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.h1Services {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.h2MyServices {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.pMyServices {
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.pAncho {
+    width: 700px;
+}
+
+
+
+.h1MyServices {
+    font-size: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.aServices {
+    margin-top: 0;
+    margin-bottom: 10px;
+}

@@ -12,7 +12,6 @@ import MyServices from './components/MyServices/MyServices'
 import MySkills from './components/MySkills/MySkills'
 import Testimonial from './components/Testimonial/Testimonial'
 
-import { Box } from '@chakra-ui/react'
 
 
 

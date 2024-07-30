@@ -7,40 +7,40 @@ const Animation = () => {
         <section className={styles.slider}>
             <div className={styles.slideTrack}>
                 <div className={styles.slide}>
-                    <p class="pSlider">UI/UX DESIGN</p>
-                    <img class="imgBanda" src={sittingPerson} alt="" />
+                    <p className={styles.pSlider}>UI/UX DESIGN</p>
+                    <img className={styles.imgBanda} src={sittingPerson} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <p class="pSlider">GRAPHIC DESIGN</p>
-                    <img class="imgBanda" src={sittingPerson} alt="" />
+                    <p className={styles.pSlider}>GRAPHIC DESIGN</p>
+                    <img className={styles.imgBanda} src={sittingPerson} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <p class="pSlider">APPS DESIGN</p>
-                    <img class="imgBanda" src={sittingPerson} alt="" />
+                    <p className={styles.pSlider}>APPS DESIGN</p>
+                    <img className={styles.imgBanda} src={sittingPerson} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <p class="pSlider">WIREFRAME DESIGN</p>
-                    <img class="imgBanda" src={sittingPerson} alt="" />
+                    <p className={styles.pSlider}>WIREFRAME DESIGN</p>
+                    <img className={styles.imgBanda} src={sittingPerson} alt="" />
                     //
                 </div>
 
                 {/* <!-- Divs duplicados --> */}
 
                 <div className={styles.slide}>
-                    <p class="pSlider">UI/UX DESIGN</p>
-                    <img class="imgBanda" src={sittingPerson} alt="" />
+                    <p className={styles.pSlider}>UI/UX DESIGN</p>
+                    <img className={styles.imgBanda} src={sittingPerson} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <p class="pSlider">GRAPHIC DESIGN</p>
-                    <img class="imgBanda" src={sittingPerson} alt="" />
+                    <p className={styles.pSlider}>GRAPHIC DESIGN</p>
+                    <img className={styles.imgBanda} src={sittingPerson} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <p class="pSlider">APPS DESIGN</p>
-                    <img class="imgBanda" src={sittingPerson} alt="" />
+                    <p className={styles.pSlider}>APPS DESIGN</p>
+                    <img className={styles.imgBanda} src={sittingPerson} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <p class="pSlider">WIREFRAME DESIGN</p>
-                    <img class="imgBanda" src={sittingPerson} alt="" />
+                    <p className={styles.pSlider}>WIREFRAME DESIGN</p>
+                    <img className={styles.imgBanda} src={sittingPerson} alt="" />
                 </div>
 
 

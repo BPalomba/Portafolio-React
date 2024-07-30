@@ -1,11 +1,10 @@
 import React from 'react';
 import { Box, Link, Text } from '@chakra-ui/react';
-import styles from './Header.module.css'
-
+import './Header.css'
 const Header = () => {
     return (
         <header>
-            <Box display={"flex"} alignItems={"center"} w="100%" bg="#FAFAFA" marginTop="2vh">
+            <Box display={"flex"} alignItems={"center"} w="100%" bg="#FAFAFA" marginTop="2vh" fontFamily={"roboto"} p="0">
 
 
                 <Text px={"15px"} marginLeft="15px" class="mm">BP</Text>

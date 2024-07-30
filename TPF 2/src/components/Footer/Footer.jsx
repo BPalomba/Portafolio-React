@@ -1,59 +1,60 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
         <footer>
 
-            <div class="containerFooter">
+            <div className="containerFooter">
 
                 {/* <!-- VdLabs --> */}
-                <div class="topFooter">
-                    <section class="VDLabs">
-                        <h2 class="VDLabs textoFooter"> VDLabs</h2>
-                        <p class="textoFooter pFooter pVDLabs">Bienvenido a nuestra cautivadora galería donde cada clic cuenta una historia única y sumérgete
+                <div className="topFooter">
+                    <section className="VDLabs">
+                        <h2 className="VDLabs textoFooter"> VDLabs</h2>
+                        <p className="textoFooter pFooter pVDLabs">Bienvenido a nuestra cautivadora galería donde cada clic cuenta una historia única y sumérgete
                         </p>
                     </section>
 
                     {/* <!-- FollowMe --> */}
-                    <section class="FollowMe">
-                        <h2 class="h2Footer textoFooter fuenteArapeyFooter">Sigueme</h2>
+                    <section className="FollowMe">
+                        <h2 className="h2Footer textoFooter fuenteArapeyFooter">Sigueme</h2>
                         {/* <!-- Facebook --> */}
-                        <a class="aFooter" href=""><i class="fa-brands fa-facebook-f sMIFooter"></i></a>
+                        <a className="aFooter" href=""><i className="fa-brands fa-facebook-f sMIFooter"></i></a>
                         {/* <!-- Twitter --> */}
-                        <a class="aFooter" href=""><i class="bi bi-twitter sMIFooter"></i></a>
+                        <a className="aFooter" href=""><i className="bi bi-twitter sMIFooter"></i></a>
                         {/* <!-- Linkeding --> */}
-                        <a class="aFooter" href=""><i class="fa-brands fa-linkedin-in sMIFooter"></i></a>
+                        <a className="aFooter" href=""><i className="fa-brands fa-linkedin-in sMIFooter"></i></a>
                         {/* <!-- Mundo? --> */}
-                        <a class="aFooter" href=""><i class="bi bi-globe sMIFooter"></i></a>
+                        <a className="aFooter" href=""><i className="bi bi-globe sMIFooter"></i></a>
                     </section>
 
                     {/* <!-- Contact --> */}
-                    <section class="contactFooter">
-                        <h2 class="h1Footer textoFooter fuenteArapeyFooter">Contactame</h2>
+                    <section className="contactFooter">
+                        <h2 className="h1Footer textoFooter fuenteArapeyFooter">Contactame</h2>
                         {/* <!-- Icono mail --> */}
-                        <p class="textoFooter pFooter pMail"> <i class="fa-solid fa-envelope"></i> bruno.example@gmail.com</p>
+                        <p className="textoFooter pFooter pMail"> <i className="fa-solid fa-envelope"></i> bruno.example@gmail.com</p>
                         {/* <!-- Icono Telefono / llamada --> */}
-                        <p class="textoFooter pFooter"><i class="fa-solid fa-phone"></i> +54-9-261-123-7123</p>
+                        <p className="textoFooter pFooter"><i className="fa-solid fa-phone"></i> +54-9-261-123-7123</p>
                     </section>
                 </div>
 
-                <div class="bottomFooter">
+                <div className="bottomFooter">
 
                     {/* <!-- Nav Footer --> */}
                     <section>
-                        <nav class="navFooter">
-                            <a class="textoFooter aNavFooter" href="#hero">Inicio</a>
-                            <a class="textoFooter aNavFooter" href="#aboutMe">Sobre Mi</a>
-                            <a class="textoFooter aNavFooter" href="#myPortfolio">Portafolio</a>
-                            <a class="textoFooter aNavFooter" href="#myServices">Servicios</a>
-                            <a class="textoFooter aNavFooter" href="#mySkills">Habilidades</a>
-                            <a class="textoFooter aNavFooter" href="#testimonial">Proyectos</a>
+                        <nav className="navFooter">
+                            <a className="textoFooter aNavFooter" href="#hero">Inicio</a>
+                            <a className="textoFooter aNavFooter" href="#aboutMe">Sobre Mi</a>
+                            <a className="textoFooter aNavFooter" href="#myPortfolio">Portafolio</a>
+                            <a className="textoFooter aNavFooter" href="#myServices">Servicios</a>
+                            <a className="textoFooter aNavFooter" href="#mySkills">Habilidades</a>
+                            <a className="textoFooter aNavFooter" href="#testimonial">Proyectos</a>
                         </nav>
                     </section>
 
-                    <div class="textoFinal">
-                        <p class="copyright">© 2024 Bruno. All Rights reserved.</p>
-                        <p class="copyright tyc">Privacy Policy | Terms & Condition</p>
+                    <div className="textoFinal">
+                        <p className="copyright">© 2024 Bruno. All Rights reserved.</p>
+                        <p className="copyright tyc">Privacy Policy | Terms & Condition</p>
                     </div>
                 </div>
             </div>

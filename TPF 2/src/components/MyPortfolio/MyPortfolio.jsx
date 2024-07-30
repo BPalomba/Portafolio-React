@@ -1,87 +1,92 @@
 import React from 'react';
+import './MyPortfolio.css'
+import proyecto1 from "../../assets/img/proyecto1.png"
+import bakery from "../../assets/img/bakery.png"
+import proyecto2 from "../../assets/img/proyecto2.png"
+import coffemachine from "../../assets/img/coffemachine.png"
 
 const MyPortfolio = () => {
     return (
-        <section class="myPortfolio" id="myPortfolio">
-            <h2 class="h2MyServices h2Portafolio">
+        <section className="myPortfolio" id="myPortfolio">
+            <h2 className="h2MyServices h2Portafolio">
                 MI PORTAFOLIO
             </h2>
 
-            <h1 class="h1MyServices">
+            <h1 className="h1MyServices">
                 Mis Impresionantes Proyectos
             </h1>
 
-            <h3 class="h3Portfolio">
+            <h3 className="h3Portfolio">
                 Bienvenido al lienzo digital donde su visión se encuentra con la innovación. Soy un Diseñador de Interfaces Creativo, dedicado a transformar ideas en realidades interactivas.
 
             </h3>
 
-            <div class="buttonBar">
-                <button class="buttonPortfolio">
+            <div className="buttonBar">
+                <button className="buttonPortfolio">
                     Todo
                 </button>
 
-                <button class="buttonPortfolio">
+                <button className="buttonPortfolio">
                     Diseño Web
                 </button>
 
-                <button class="buttonPortfolio">
+                <button className="buttonPortfolio">
                     Diseño Grafico
                 </button>
 
-                <button class="buttonPortfolio">
+                <button className="buttonPortfolio">
                     Marcas
                 </button>
 
-                <button class="buttonPortfolio">
+                <button className="buttonPortfolio">
                     Tablero
                 </button>
             </div>
 
             {/* <!-- Carrusel --> */}
-            <div class="containerCarrusel" id="containerCarrusel">
+            <div className="containerCarrusel" id="containerCarrusel">
 
-                <div class="cuadradosCarrusel">
+                <div className="cuadradosCarrusel">
 
-                    <img class="imgCarrusel" src="img/proyecto1.png" alt="" />
-                    <h1 class="h1Services h1Carrusel">Services Web Design </h1>
-                    <p class="pServices pCarrusel">Website/Landing page</p>
-                    <i class="bi bi-arrow-up-right-circle-fill iconoFlechaDiagonal"></i>
+                    <img className="imgCarrusel" src={proyecto1} alt="" />
+                    <h1 className="h1Services h1Carrusel">Services Web Design </h1>
+                    <p className="pServices pCarrusel">Website/Landing page</p>
+                    <i className="bi bi-arrow-up-right-circle-fill iconoFlechaDiagonal"></i>
                 </div>
 
-                <div class="cuadradosCarrusel">
+                <div className="cuadradosCarrusel">
 
-                    <img class="imgCarrusel " src="img/bakery.png" alt="" />
-                    <h1 class="h1Services h1Carrusel">Bakery Website Design</h1>
-                    <p class="pServices pCarrusel">Website/Landing page</p>
-                    <i class="bi bi-arrow-up-right-circle-fill iconoFlechaDiagonal"></i>
+                    <img className="imgCarrusel " src={bakery} alt="" />
+                    <h1 className="h1Services h1Carrusel">Bakery Website Design</h1>
+                    <p className="pServices pCarrusel">Website/Landing page</p>
+                    <i className="bi bi-arrow-up-right-circle-fill iconoFlechaDiagonal"></i>
 
                 </div>
 
-                <div class="cuadradosCarrusel">
+                <div className="cuadradosCarrusel">
 
-                    <img class="imgCarrusel carruselLoginPage" src="img/proyecto2.png" alt="" />
-                    <h1 class="h1Services h1Carrusel">Login Website Design </h1>
-                    <p class="pServices pCarrusel">Website/Landing page</p>
-                    <i class="bi bi-arrow-up-right-circle-fill iconoFlechaDiagonal"></i>
+                    <img className="imgCarrusel carruselLoginPage" src={proyecto2} alt="" />
+                    <h1 className="h1Services h1Carrusel">Login Website Design </h1>
+                    <p className="pServices pCarrusel">Website/Landing page</p>
+                    <i className="bi bi-arrow-up-right-circle-fill iconoFlechaDiagonal"></i>
                 </div>
 
-                <div class="cuadradosCarrusel">
+                <div className="cuadradosCarrusel">
 
-                    <img class="imgCarrusel" src="img/coffemachine.png" alt="" />
-                    <h1 class="h1Services h1Carrusel">Bakery Website Design </h1>
-                    <p class="pServices pCarrusel">Website/Landing page</p>
-                    <i class="bi bi-arrow-up-right-circle-fill iconoFlechaDiagonal"></i>
+                    <img className="imgCarrusel" src={coffemachine} alt="" />
+                    <h1 className="h1Services h1Carrusel">Bakery Website Design </h1>
+                    <p className="pServices pCarrusel">Website/Landing page</p>
+                    <i className="bi bi-arrow-up-right-circle-fill iconoFlechaDiagonal"></i>
 
                 </div>
             </div>
             {/* <!-- Fin carrusel --> */}
 
             {/* <!-- Flechitas --> */}
-            <div class="containerFlechasPortfolio">
-                <button class="flechas"><i class="bi bi-arrow-left-circle-fill iconoFlechaHorizontal"></i></button>
+            <div className="containerFlechasPortfolio">
+                <button className="flechas"><i className="bi bi-arrow-left-circle-fill iconoFlechaHorizontal"></i></button>
 
-                <button class="flechas"><i class="bi bi-arrow-right-circle-fill iconoFlechaHorizontal"></i></button>
+                <button className="flechas"><i className="bi bi-arrow-right-circle-fill iconoFlechaHorizontal"></i></button>
             </div>
 
         </section>

@@ -2,6 +2,7 @@ import React from 'react';
 import uiux from '../../assets/img/uiux.png'
 import pen from '../../assets/img/pen.png'
 import web from '../../assets/img/web.png'
+import './MyServices.css'
 
 const MyServices = () => {
     return (

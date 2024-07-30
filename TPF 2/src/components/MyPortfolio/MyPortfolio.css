@@ -1,0 +1,164 @@
+.myPortfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 130px 0;
+}
+
+.pPortfolio {
+    width: 70%;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+
+}
+
+.h2Portafolio {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.buttonBar {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.buttonPortfolio {
+    background-color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 2px 20px;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    transition: 0.2s;
+    border: 2px solid transparent;
+
+
+}
+
+.buttonPortfolio:hover {
+    color: white;
+    background-color: #161517;
+    text-decoration: none;
+}
+
+.cointainerPortfolio {
+    margin: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.containerCarrusel {
+    align-items: center;
+    width: 840px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#containerCarrusel::-webkit-scrollbar {
+    display: none;
+}
+
+
+.cuadradosCarrusel {
+    margin: 0 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 442px;
+    height: 356px;
+
+}
+
+.iconoFlechaDiagonal {
+    position: relative;
+    bottom: 50px;
+    left: 375px;
+    padding-top: 5px;
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+.iconoFlechaDiagonal:hover {
+    cursor: pointer;
+}
+
+
+.imgCarrusel {
+    height: 230px;
+
+    padding: 0px;
+    border-radius: 10px;
+    margin: 30px;
+    margin-bottom: 5px;
+    filter: grayscale(90%);
+}
+
+.carruselLoginPage {
+    height: 205px;
+    width: 230px;
+    margin: 30px auto;
+}
+
+.h1Carrusel {
+    width: 400px;
+    margin-bottom: 2px;
+    text-align: left;
+    margin-left: 42px;
+    margin-top: 0;
+}
+
+.pCarrusel {
+    margin-top: 0;
+    margin-left: 42px;
+    margin-bottom: 0px;
+}
+
+.containerFlechasPortfolio {
+    /* border: 2px solid aquamarine; */
+    align-self: center;
+    margin: 0 auto;
+}
+
+.flechas {
+    border: transparent 2px;
+    margin-top: 30px;
+    filter: opacity(60%);
+    transition: 0.4s;
+    /* border: 2px solid red; */
+}
+
+.flechas:hover {
+    filter: opacity(100%);
+}
+
+.iconoFlechaHorizontal {
+    font-size: 25px;
+}
+
+.h3Portfolio {
+    width: 60%;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+}
